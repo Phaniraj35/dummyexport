@@ -1,0 +1,22 @@
+{
+    "name": "lws/exportactions",
+    "autoload": {
+        "psr-4": {
+            "LWS\\ExportActions\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.3",
+        "illuminate/contracts": "^5.8",
+        "illuminate/foundation": "^1.1"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LWS\\ExportActions\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "soapbox/laravel-formatter": "^3.1"
+    }
+}
